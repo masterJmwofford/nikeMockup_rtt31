@@ -1,0 +1,151 @@
+/* CSS: Is where we style and adjust the elements we created in HTML */
+
+@keyframes moveLeft {
+  0% {
+    margin-left: 0%;
+  }
+  50% {
+    margin-left: 80%;
+    border-width: 12px;
+    border: solid green;
+    border-radius: 50%;
+  }
+  100% {
+    margin-left: 0%;
+  }
+}
+.navbar {
+  /* border: solid blue; */
+  /* height:12vh; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.mainPic {
+  /* border: solid green; */
+  /* height:45vh; */
+  margin-bottom:2em;
+  padding:1em;
+}
+.adContainer {
+  /* border:solid purple; */
+  display: flex;
+  justify-content: space-evenly;
+  /* height:42vh; */
+}
+.logo {
+  height: 45px;
+  /* width:50%; */
+}
+
+.iconParent {
+  /* border:solid red; */
+  margin-top: 5px;
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.icon {
+  height: 30px;
+}
+.bigPicture {
+  width: 100%;
+}
+.picTitle {
+  text-align: center;
+  font-family: serif;
+}
+.btnContainer {
+  /* border:solid blue; */
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.shop,
+.login {
+  font-size: 19px;
+  background-color: black;
+  color: white;
+  width: 33%;
+  border-radius: 20px;
+}
+.shop:hover,
+.login:hover {
+  font-size: 19px;
+  background-color: black;
+  color: lime;
+  width: 33%;
+  border-radius: 20px;
+}
+.men {
+  /* border:solid green; */
+  display: flex;
+  justify-content: space-evenly;
+}
+.women {
+  /* border:solid salmon; */
+  display: flex;
+  justify-content: space-evenly;
+}
+.kid {
+  /* border:solid yellow; */
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.smPic {
+  height: 90px;
+}
+
+.mario {
+  border: solid blue;
+  height: 150px;
+  animation: moveLeft ease-in 10s;
+}
+.productContainer {
+  /* border: solid red; */
+  /* height:52vh; */
+  margin: 1em;
+  padding: 1em;
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.productBox {
+  border: solid #333C3F;
+  /* height:250px; */
+  border-width:.2px;
+  width: 250px;
+  padding: 1em;
+  margin:1em;
+  text-align: center;
+}
+
+.productImage {
+  /* border:solid purple; */
+  width: 100%;
+}
+
+.starContainer {
+  /* border: solid salmon; */
+  padding:1em;
+  display:flex;
+}
+.starHolder {
+  /* border: solid black; */
+  width:50%;
+  height:20px;
+}
+.baby{
+    width:100%;
+}
+
+.ratingBox{
+    /* border:solid orange; */
+    width:50%;
+    height:20px;
+    text-align:center;
+}
+.star{
+    height:80%;
+}
